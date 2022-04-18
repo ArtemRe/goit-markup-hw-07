@@ -469,8 +469,9 @@ a {
 }
 
 .box-nav {
-  margin-bottom: 56px;
-}
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;}
 
 .nav-portfolio:hover,
 .nav-portfolio:focus {
@@ -510,10 +511,9 @@ a {
 }
 
 .foto-items {
-  width: calc(100% / 3);
+  width: calc(100 % / 3);
   margin: 15px;
   display: block;
-
 }
 
 .mail-footer,
