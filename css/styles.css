@@ -436,7 +436,7 @@ a {
 
 .section-nav {}
 
-.nav-portfolio {
+.nav-box__button {
   font-family: inherit;
   background-color: #f5f4fa;
   cursor: pointer;
@@ -454,27 +454,27 @@ a {
 
 }
 
-.nav-portfolio {
+.nav-box__button {
 
   transition: box-shadow, background-color, var(--speed-animation);
 
 }
 
-.box-item {
+.nav-box__item {
   margin-right: 8px;
 }
 
-.box-item:last-child {
+.nav-box__item:last-child {
   margin-right: 0;
 }
 
-.box-nav {
+.nav-box {
   display: flex;
   justify-content: center;
   margin-bottom: 56px;}
 
-.nav-portfolio:hover,
-.nav-portfolio:focus {
+.nav-box__button:hover,
+.nav-box__button:focus {
   color: var(--main-bacgraund);
   background-color: var(--main-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -489,7 +489,7 @@ a {
   margin-bottom: 94px;
 }
 
-.img-back {
+.foto__img {
   background-color: #eeeeee;
   display: block;
 }
@@ -510,7 +510,7 @@ a {
   margin: -15px;
 }
 
-.foto-items {
+.foto__items {
   width: calc(100 % / 3);
   margin: 15px;
   display: block;
@@ -547,7 +547,7 @@ a {
   display: block;
 }
 
-.inner-title {
+.foto-bottom__text {
   /* font-family: Roboto; */
   /* font-weight: normal; */
   font-size: 16px;
@@ -555,7 +555,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-.foto-title {
+.foto-bottom__title {
   /* font-family: Roboto, sans-serif; */
   font-weight: bold;
   font-size: 18px;
@@ -575,12 +575,12 @@ a {
   margin: 0 auto;
 }
 
-.box-nav {
+.nav-box {
   display: flex;
   justify-content: center;
 }
 
-.prt-item {
+.foto-bottom {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 24px;
@@ -592,31 +592,31 @@ a {
   display: block;
 }
 
-.link-foto {
+.foto__link {
   display: block;
 }
 
-.foto-items .link-foto:focus,
-.foto-items .link-foto:hover {
+.foto__items .foto__link:focus,
+.foto__items .foto__link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-/* .link-foto:hover .overlay-card{
+/* .foto__link:hover .overlay-card{
   opacity: 1;
 top: 0;
 left: 0; 
 transition: transform 5000ms;
 } */
-.card-shadov {
+.foto__card {
   position: relative;
   overflow: hidden;
   /* background-color:rgba(33, 150, 243, 0.9);
 transform: rotateY(50%); */
 }
 
-.card-shadov::before {
+.foto__card::before {
   position: absolute;
   content: "";
   opacity: 0;
@@ -628,12 +628,12 @@ transform: rotateY(50%); */
   transition: var(--speed-animation);
 }
 
-.link-foto:hover ::before {
+.foto__link:hover ::before {
   opacity: 1;
   transform: rotateY(0);
 }
 
-.card-shadov {
+.foto__card {
   position: relative;
   display: flex;
   justify-content: center;
@@ -655,13 +655,13 @@ transform: rotateY(50%); */
 
 }
 
-.link-foto:hover .overlay-card {
+.foto__link:hover .overlay-card {
   opacity: 1;
   transform: rotateY(0);
 
 }
 
-.overlay-card .text-overlay {
+.overlay-card .overlay__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
