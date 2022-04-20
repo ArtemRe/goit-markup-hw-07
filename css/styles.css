@@ -1,4 +1,4 @@
-:root {
+/* :root { */
   --main-bacgraund: #ffffff;
   --tittle-colore: #212121;
   --paragraf-colore: #757575;
@@ -15,37 +15,32 @@
   /* outline: 1px solid tomato; */
 }
 
-.section {
+/* .section {
   padding-top: 94px;
   /* padding-bottom: 94px; */
   /* padding-bottom: 94px; */
-}
+} */
 
 .section-work {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-body {
+/* body {
   background-color: var(--main-bacgraund);
   color: var(--paragraf-colore);
   font-family: roboto, sans-serif;
-}
+} */
 
-.header-border {
+/* .header-border {
   border-bottom: 1px solid #ececec;
-}
+} */
 
-.header-container {
-  display: flex;
-  align-items: center;
-  /* margin-top: 25px;
-  margin-bottom: 25px; */
-}
 
-.heder-logo {
+
+/* .heder-logo {
   display: flex;
-}
+} */
 
 .hero-container {}
 
@@ -104,7 +99,7 @@ body {
   margin-bottom: 30px;
 }
 
-h1,
+/* h1,
 h2,
 h3 {
   color: var(--tittle-colore);
@@ -117,7 +112,7 @@ p {
   list-style: none;
   margin: 0;
   padding-left: 0;
-}
+} */
 
 .sp-conteiner {}
 
@@ -198,11 +193,11 @@ p {
   background-color: var(--main-blue)
 }
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 .logo {
   color: var(--tittle-colore);
@@ -220,14 +215,14 @@ img {
   color: #2196f3;
 }
 
-.link {
+/* .link {
   text-decoration: none;
   color: var(--tittle-colore);
 }
 
 a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .link.current {
   color: var(--main-blue);
@@ -256,13 +251,9 @@ a {
 
 .link-nav {}
 
-.nav-header {
+/* .nav-header {
   display: flex;
-  /* margin-right: 50px; */
-
-  /* margin-top: 32px;
-  margin-bottom: 32px; */
-}
+} */
 
 /* .nav-header :nth-last-child(n + 3) {
   margin-right: 0;
@@ -275,9 +266,9 @@ a {
 
 }
 
-.nav-header .link {
+/* .nav-header .link {
   transition: color var(--speed-animation);
-}
+} */
 
 .nav__items :hover,
 :focus {
@@ -774,7 +765,6 @@ transform: rotateY(50%); */
 
 .box-social {
   display: flex;
-
   margin-top: 16px;
   justify-content: center;
   align-items: center;
@@ -785,7 +775,6 @@ transform: rotateY(50%); */
   height: 20px;
   fill: var(--icon-color);
   transition: fill var(--speed-animation);
-
 }
 
 .social__icon {
